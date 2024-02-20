@@ -1,5 +1,5 @@
 function hideElementID(elementId) {
-    const element = document.getElementById(elementId); // Notice the change here
+    const element = document.getElementById(elementId);
     element.classList.add('hidden')
 }
 function ShowelementId(elementId) {
@@ -13,8 +13,8 @@ function getTextElementById(elementId) {
     return value;
 }
 function setTextElementbyID(elementId, value) {
-    const element = document.getElementById(elementId); // Finds the HTML element with the specified ID
-    element.innerText = value; // Sets the inner text of the found element to the provided value
+    const element = document.getElementById(elementId);
+    element.innerText = value;
 }
 
 function getbackgroundColor(elementId) {
